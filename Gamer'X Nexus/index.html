@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="GamerX nexus is the number one site for gamerX to 
+    socialize, play and share their games with the huge community.."
+    />
+    <title>Gamer'X Nexus</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css"
+      integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-1 fixed-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand"
+          ><img class="img w-50" src="" alt="logo image goes here." />
+          <h3 class="brand">Hi GamerX</h3>
+        </a>
+
+        <!--Navigation bar collapse button-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#nexus" class="nav-link text-warning">THE NEXUS</a>
+            </li>
+            <li class="nav-item">
+              <a href="#news" class="nav-link">GAME NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a href="login.html" class="nav-link">LOGIN</a>
+            </li>
+            <li class="nav-item">
+              <a href="#questions" class="nav-link">QUESTIONS</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">ABOUT US</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Showcase Section -->
+    <section
+      id="Showcase"
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>
+              Welcome to network of Gamers;
+              <span class="text-warning">Gamer'X Nexus</span>
+            </h1>
+            <p class="lead my-4">
+              Gamer'X Nexus is a platform for gamerx to connect, socialize and
+              play with the nexus of Gamerx
+            </p>
+            <a href="#">
+              <button
+                class="btn btn-outline-warning btn-lg"
+                data-bs-toggle="modal"
+                data-bs-target="#enroll"
+              >
+                Join The Nexus Now
+              </button>
+            </a>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="Images/undraw_gaming_re_cma2.svg"
+            alt="gamepad image"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="bg-primary text-light p-5">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="mb-3 mb-md-0">Subscribe for our Newsletter</h3>
+
+          <div class="input-group news-input">
+            <input type="text" class="form-control" placeholder="Enter Email" />
+            <button class="btn btn-dark btn-lg" type="button">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- App download cards -->
+    <section class="p-5">
+      <div class="container">
+        <div class="description text-center">
+          <h2 id="download" class="mb-3">Get Our App</h2>
+        </div>
+        <!-- g-4 means gap space of 4 between the cards -->
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-windows"></i>
+                </div>
+                <h3 class="card-title mb-3">Windows</h3>
+                <p class="card-text">
+                  Get the all new GamerX Nexus app for your windows computer. It
+                  comes with simplified UI for easy navigation. Hit the download
+                  button below to get it.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Download</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-apple"></i>
+                </div>
+                <h3 class="card-title mb-3">Mac</h3>
+                <p class="card-text">
+                  Get the Gamer'X Nexus app for your mac. This comes with an
+                  interactive, fluent and simple UI. Click on the download
+                  button below to download the app for your mac.
+                </p>
+                <a href="#" class="btn btn-outline-dark">Download</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-phone"></i>
+                </div>
+                <h3 class="card-title mb-3">Mobile</h3>
+                <p class="card-text">
+                  Get the GamerX Nexus app specially for your mobile device. For
+                  both Android and the IOS. Click on the download button below
+                  to get it now.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nexus Section -->
+    <section id="nexus" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <!-- fluid makes it stay in the container -->
+            <img
+              src="Images/3262097.jpg"
+              class="img-fluid"
+              alt="network image"
+            />
+          </div>
+          <div class="col-md p-5">
+            <h2><span class="text-warning">THE NEXUS</span></h2>
+            <p class="lead">
+              The core feature of the GamerX Nexus where the magic happens.
+            </p>
+            <p>
+              The Nexus, Core Feature of the Gamer'X Nexus is the spot where you
+              can conncet with gamerx around the globe to Socialize, Play
+              together, share game files, rewards and achievements. The Nexus
+              also allows you to become a content creator so you build a career
+              posting regular gaming content.
+            </p>
+            <a href="nexus.html" class="btn btn-outline-warning mt-3">
+              <i class="bi bi-chevron-right"></i>Enter The Nexus
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Game News Section -->
+    <section id="news" class="p-5 bg-dark text-light">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2>THE DOME</h2>
+            <p class="lead">
+              The Game News also Known as THE DOME is your number one spot for
+              all gaming news.
+            </p>
+            <p>
+              Enter the news to hub to get access all the new gists going on in
+              the gaming world. The Dome gives users access to all the new
+              gaming news including new games, bugs, hacks, critics etc.
+            </p>
+            <a href="#" class="btn btn-outline-primary mt-3">
+              <i class="bi bi-chevron-right"></i> Get News
+            </a>
+          </div>
+          <div class="col-md">
+            <!-- fluid makes it stay in the container -->
+            <img src="Images/16720134_Ag1_09.jpg" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Questions Accordian -->
+    <section id="questions" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="questions">
+          <!-- Accordion Item 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#questions-one"
+              >
+                How do i connect with other gamerx?
+              </button>
+            </h2>
+            <div
+              id="questions-one"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                To connect with gamerx around the world visit
+                <span class="text-warning">The Nexus</span> where you can
+                connect to gamerx locally or international. You can click on the
+                link below to access the Nexus.
+                <a href="#nexus">The Nexus</a>
+              </div>
+            </div>
+          </div>
+          <!-- Accordion Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#questions-two"
+              >
+                Can i share game files?
+              </button>
+            </h2>
+            <div
+              id="questions-two"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Sure, Head into the Nexus to start sharing with your friends.
+                <a href="#nexus">The Nexus</a>
+              </div>
+            </div>
+          </div>
+          <!-- Accordion Item 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#questions-three"
+              >
+                How can i locate gamerX in my Neighbourhood?
+              </button>
+            </h2>
+            <div
+              id="questions-three"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                To locate other gamerx, you must eneble location access in the
+                nexus. Remember only those that have enabled location access
+                will appear in your search for gamers in your Neighbourhood. Go
+                to the Nexus now!!
+                <a href="#nexus">The Nexus</a>
+              </div>
+            </div>
+          </div>
+          <!-- Accordion Item 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#questions-four"
+              >
+                How do i sign up?
+              </button>
+            </h2>
+            <div
+              id="questions-four"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Simple, remember the "Join the Nexus Now" button at the top?
+                Dude, click it. Follow this link to take you to the top
+                <a href="#showcase">Go to the TOP</a>
+              </div>
+            </div>
+          </div>
+          <!-- Accordion Item 5 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#questions-five"
+              >
+                Is there a GamerX Nexus app?
+              </button>
+            </h2>
+            <div
+              id="questions-five"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Definetely, you can get the app for windows, mac, android and
+                the ios. Click on the link to go to the download section
+                <a href="#download">Get Our Apps</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="p-1 bg-primary">
+      <div class="container">
+        <h2 class="text-center text-white pt-4">About Us</h2>
+        <p class="lead text-center text-white mb-4">
+          Below are the various developers that worked on THE NEXUS
+        </p>
+        <div class="row g-5 mb-4">
+          <!-- first person -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="Images/dee.jpg"
+                  class="rounded-circle mb-3 w-50"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Desmond Owusu</h3>
+                <p class="card-text">
+                  A Frontend and Backend Web Developer. Also a Software
+                  Engineer, Data Scientist.
+                </p>
+                <a href="#" class="bi bi-twitter mx-1 text-dark"></a>
+                <a href="#" class="bi bi-facebook mx-1 text-dark"></a>
+                <a href="#" class="bi bi-linkedin mx-1 text-dark"></a>
+                <a href="#" class="bi bi-instagram mx-1 text-dark"></a>
+              </div>
+            </div>
+          </div>
+          <!-- Second person -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="Images/Mike 20220202_063309.jpg"
+                  class="rounded-circle mb-3 w-50"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Adu Poku Michael</h3>
+                <p class="card-text">
+                  A Software Engineer/Developer, and a Full stack Web Developer.
+                </p>
+                <a href="#" class="bi bi-twitter mx-1 text-dark"></a>
+                <a href="#" class="bi bi-facebook mx-1 text-dark"></a>
+                <a href="#" class="bi bi-linkedin mx-1 text-dark"></a>
+                <a href="#" class="bi bi-instagram mx-1 text-dark"></a>
+              </div>
+            </div>
+          </div>
+          <!-- third person -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="Images/sandra1.jpg"
+                  class="rounded-circle mb-3 h-50 w-50"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Asiamah Sandra</h3>
+                <p class="card-text">
+                  Technical Advisor, Software Tester, Digital Marketer.
+                </p>
+                <a href="#" class="bi bi-twitter mx-1 text-dark"></a>
+                <a href="#" class="bi bi-facebook mx-1 text-dark"></a>
+                <a href="#" class="bi bi-linkedin mx-1 text-dark"></a>
+                <a href="#" class="bi bi-instagram mx-1 text-dark"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact and Map -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2 class="text-center mb-4">Contact Info</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">Main Location:</span> Kumasi Technical
+                University
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Telephone:</span> +233-559-410-110
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Email Address:</span>
+                gamerxnexus@gmail.com
+              </li>
+            </ul>
+          </div>
+          <div class="col-md">
+            <div id="map"><img src="images/map.jpg" alt="" /></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="p-4 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2022 Gamer'X Nexus</p>
+
+        <a href="#" class="position absolute bottom-0 end-0 p-1">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
